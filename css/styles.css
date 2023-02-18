@@ -1,12 +1,44 @@
 /* -- Various -- */
+:root {
+    /* common color */
+    --color-primary: #2E2F42;
+    /* --color-accent: #2196F3; */
+    /* color-text */
 
-
-/* -- Total -- */
-
+    /* --color-secondary: #757575;
+    --color-logo: #2196F3;
+    --color-logo-header: #000;
+    --color-logo-footer: #fff;
+    --color-footer: rgba(255, 255, 255, 0.6);
+    --color-footer-adress: #fff;
+    --color-hero: #fff;
+    --color-btn-hero: #fff;
+    --color-btn-portfolio: #212121;
+    --color-btn-portfolio-hover: #fff; */
+    /* background-color */
+    --bg-color: #fff;
+    /* ---color-bg-light: #F5F4FA;
+    --color-bg-dark: #2F303A;
+    --color-bg-btn-hero: #2196F3;
+    --color-bg-btn-hero-hover: #188CE8;
+    --color-bg-btn-portfolio: #F5F4FA;
+    --color-bg-btn-portfolio-hover: #2196F3; */
+    /* font-family */
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
+}
 
 /* -- Global -- */
+body {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: calc(24px/16px);
+    font-weight: 400;
+    background-color: var(--bg-color);
+}
 
-
+/* -- Common All Pages -- */
 
 /* -- Main Page -- */
 .logo {}
@@ -33,7 +65,7 @@
 
 .features {}
 
-.vissually-hidden {}
+.visually-hidden {}
 
 .features-title {}
 
@@ -53,13 +85,13 @@
 
 /* -- Portfolio Page -- */
 
-.vissually-hidden {}
+.visually-hidden {}
 
 .list {}
 
 .button {}
 
-.btn-potfolio {}
+.btn-portfolio {}
 
 .portfolio-item-title {}
 
