@@ -61,9 +61,14 @@ body {
     text-decoration: none;
 }
 
-.link:is(:hover,:focus} {
+.link:is(:hover,:focus) {
     color: var(--color-accent);
 }
+
+/* .button {
+    font-family: inherit;
+    cursor: pointer;
+} */
 
 /* Header & Footer */
 
@@ -103,7 +108,7 @@ body {
 
 .hero-title {}
 
-.button {}
+
 
 .hero-btn {}
 
