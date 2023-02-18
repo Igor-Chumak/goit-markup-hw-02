@@ -3,27 +3,30 @@
     /* common color */
     --color-primary: #2E2F42;
     /* --color-accent: #2196F3; */
-    /* color-text */
+    /* --color-secondary: #757575;*/
 
-    /* --color-secondary: #757575;
-    --color-logo: #2196F3;
-    --color-logo-header: #000;
-    --color-logo-footer: #fff;
-    --color-footer: rgba(255, 255, 255, 0.6);
-    --color-footer-adress: #fff;
-    --color-hero: #fff;
+    /* color-text */
+    --color-logo: #4D5AE5;
+    --color-logo-header: #2E2F42;
+    --color-logo-footer: #F4F4FD;
+    --color-address: #434455;
+    --color-footer: #E7E9FC; 
+    
+    /* --color-hero: #fff;
     --color-btn-hero: #fff;
     --color-btn-portfolio: #212121;
     --color-btn-portfolio-hover: #fff; */
+
     /* background-color */
     --bg-color: #fff;
-    /* ---color-bg-light: #F5F4FA;
-    --color-bg-dark: #2F303A;
-    --color-bg-btn-hero: #2196F3;
-    --color-bg-btn-hero-hover: #188CE8;
-    --color-bg-btn-portfolio: #F5F4FA;
-    --color-bg-btn-portfolio-hover: #2196F3; */
-    /* font-family */
+    /* --bg-color-light: #F5F4FA;
+    --bg-color-dark: #2F303A;
+    --bg-color-btn-hero: #2196F3;
+    --bg-color-btn-hero-hover: #188CE8;
+    --bg-color-btn-portfolio: #F5F4FA;
+    --bg-color-btn-portfolio-hover: #2196F3; */
+
+    /* fonts */
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
 }
@@ -38,22 +41,35 @@ body {
     background-color: var(--bg-color);
 }
 
-/* -- Common All Pages -- */
-
-/* -- Main Page -- */
-.logo {}
-
-.logo-part-header {}
-
+/* -- Common for All Pages -- */
 .list {}
 
 .link {}
 
-.nav-link {}
-
 .current-page {}
 
+/* Header & Footer */
+
+.logo {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: calc(24px/18px);
+    text-decoration: none;
+    color: var(--color-logo);
+}
+
+.logo-part-header {}
+
+.nav-link {}
+
 .contact-link {}
+
+.logo-part-footer {}
+
+.footer {}
+
+/* -- Main Page -- */
 
 .hero-section {}
 
@@ -78,10 +94,6 @@ body {
 .team-item {}
 
 .team-description {}
-
-.footer {}
-
-.logo-part-footer {}
 
 /* -- Portfolio Page -- */
 
