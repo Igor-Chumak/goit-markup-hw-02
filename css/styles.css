@@ -2,8 +2,9 @@
 :root {
     /* common color */
     --color-primary: #2E2F42;
-    /* --color-accent: #2196F3; */
     /* --color-secondary: #757575;*/
+    /* --color-accent: #2196F3; */
+
 
     /* color-text */
     --color-logo: #4D5AE5;
@@ -19,8 +20,9 @@
 
     /* background-color */
     --bg-color: #fff;
+    --bg-color-dark: #2E2F42;
     /* --bg-color-light: #F5F4FA;
-    --bg-color-dark: #2F303A;
+   
     --bg-color-btn-hero: #2196F3;
     --bg-color-btn-hero-hover: #188CE8;
     --bg-color-btn-portfolio: #F5F4FA;
@@ -42,11 +44,18 @@ body {
 }
 
 /* -- Common for All Pages -- */
-.list {}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
 
 .link {}
 
 .current-page {}
+
+/* UI components */
 
 /* Header & Footer */
 
@@ -54,20 +63,31 @@ body {
     font-family: var(--font-secondary);
     font-size: 18px;
     font-weight: 800;
-    line-height: calc(24px/18px);
+    line-height: calc(24/18);
     text-decoration: none;
     color: var(--color-logo);
 }
 
-.logo-part-header {}
+.logo-part-header {
+    color: var(--color-logo-header);
+}
+
+.logo-part-footer {
+    color: var(--color-logo-footer);
+}
 
 .nav-link {}
 
 .contact-link {}
 
-.logo-part-footer {}
 
-.footer {}
+.footer {
+    background-color: var(--bg-color-dark);
+}
+
+.footer-text {
+    color: var(--color-footer)
+}
 
 /* -- Main Page -- */
 
