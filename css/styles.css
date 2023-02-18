@@ -1,8 +1,14 @@
 /* -- Various -- */
+
+
 /* -- Total -- */
+
+
 /* -- Global -- */
+
+
+
 /* -- Main Page -- */
-/* -- Portfolio Page -- */
 .logo {}
 
 .logo-part-header {}
@@ -44,3 +50,17 @@
 .footer {}
 
 .logo-part-footer {}
+
+/* -- Portfolio Page -- */
+
+.vissually-hidden {}
+
+.list {}
+
+.button {}
+
+.btn-potfolio {}
+
+.portfolio-item-title {}
+
+.portfolio-item-type {}
