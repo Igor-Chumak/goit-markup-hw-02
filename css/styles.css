@@ -3,8 +3,7 @@
     /* common color */
     --color-primary: #2E2F42;
     /* --color-secondary: #757575;*/
-    /* --color-accent: #2196F3; */
-
+    --color-accent: #404BBF;
 
     /* color-text */
     --color-logo: #4D5AE5;
@@ -22,7 +21,6 @@
     --bg-color: #fff;
     --bg-color-dark: #2E2F42;
     /* --bg-color-light: #F5F4FA;
-   
     --bg-color-btn-hero: #2196F3;
     --bg-color-btn-hero-hover: #188CE8;
     --bg-color-btn-portfolio: #F5F4FA;
@@ -51,11 +49,21 @@ body {
     margin: 0;
 }
 
-.link {}
+.list .current-page {
+    color: var(--color-accent);
+}
 
-.current-page {}
+
 
 /* UI components */
+.link {
+    font-family: var(--font-primary);
+    text-decoration: none;
+}
+
+.link:is(:hover,:focus} {
+    color: var(--color-accent);
+}
 
 /* Header & Footer */
 
