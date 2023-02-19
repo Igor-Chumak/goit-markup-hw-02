@@ -136,7 +136,7 @@ body {
 }
 
 .nav-link {
-    color: inherit;
+    color: currentColor;
     font-size: inherit;
     font-weight: 500;
     line-height: calc(24/16);
@@ -176,6 +176,7 @@ body {
     font-size: 56px;
     line-height: calc(60/56);
     letter-spacing: 0.02em;
+    text-align: center;
     /* text-transform: none; */
 }
 
@@ -201,11 +202,15 @@ body {
     font-size: 36px;
     line-height: calc(40/36);
     letter-spacing: 0.02em;
-    background-color: var(--bg-color);
+    text-align: center;
 }
 
 .team {
     background-color: var(--bg-color-light);
+}
+
+.team li {
+    background-color: var(--bg-color);
 }
 
 .team-item {
@@ -213,13 +218,13 @@ body {
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
 }
 
 .team-description {
     color: var(--color-secondary);
     letter-spacing: 0.02em;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
 }
 
 /* -- Portfolio Page -- */
