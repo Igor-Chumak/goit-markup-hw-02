@@ -2,7 +2,8 @@
 :root {
     /* common color */
     --color-primary: #2E2F42;
-    /* --color-secondary: #757575;*/
+    /* --color-primary:rgb(46, 47, 66); */
+    --color-secondary: #434455;
     --color-accent: #404BBF;
 
     /* color-text */
@@ -11,7 +12,7 @@
     --color-logo-footer: #F4F4FD;
     --color-address: #434455;
     --color-footer: #E7E9FC; 
-    /* --color-hero: #fff; */
+    --color-hero-title: #fff;
     --color-btn-hero: #fff;
     --color-btn-portfolio: #4D5AE5;
     --color-btn-portfolio-hover: #fff;
@@ -19,13 +20,14 @@
     /* background-color */
     --bg-color: #fff;
     --bg-color-dark: #2E2F42;
-    /* --bg-color-light: #F5F4FA; */
+    --bg-color-light: #F4F4FD;
     --bg-color-btn-hero: #4D5AE5;
     --bg-color-btn-hero-hover: #404BBF;
     --bg-color-btn-portfolio: #F4F4FD;
     --bg-color-btn-portfolio-hover: #404BBF;
 
     /* border-color */
+    --brd-color: #E7E9FC;
     --brd-color-btn-portfolio: #E7E9FC;
     /* fonts */
     --font-primary: 'Roboto', sans-serif;
@@ -37,7 +39,7 @@ body {
     color: var(--color-primary);
     font-family: var(--font-primary);
     font-size: 16px;
-    line-height: calc(24px/16px);
+    line-height: calc(24/16);
     font-weight: 400;
     background-color: var(--bg-color);
 }
@@ -109,6 +111,10 @@ body {
 
 /* Header & Footer */
 
+/* header{
+        border-bottom: 1px var(--brd-color);
+} */
+
 .logo {
     font-family: var(--font-secondary);
     font-size: 18px;
@@ -155,23 +161,54 @@ body {
 
 /* -- Main Page -- */
 
-.hero-section {}
+.hero-section {
+    background-color: var(--bg-color-dark);
+}
 
-.hero-title {}
+.hero-title {
+    color: var(--color-hero-title);
+    font-size: 56px;
+    line-height: calc(60/56);
+    /* text-transform: none; */
+}
 
-.features {}
+/* .features {} */
 
-.features-title {}
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+}
 
-.features-text {}
+.features-text {
+    color: var(--color-secondary);
+}
 
 .whatwedo {}
 
-.team {}
+.whatwedo-title,
+.team-title  {
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: calc(40/36);
+    background-color: var(--bg-color);
+}
 
-.team-item {}
+.team {
+    background-color: var(--bg-color-light);
+}
 
-.team-description {}
+.team-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    background-color: var(--bg-color);
+}
+
+.team-description {
+    color: var(--color-secondary);
+    background-color: var(--bg-color);
+}
 
 /* -- Portfolio Page -- */
 
