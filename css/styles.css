@@ -80,6 +80,7 @@ body {
     font-size: inherit;
     font-weight: 500;
     line-height: calc(24/16);
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -174,6 +175,7 @@ body {
     color: var(--color-hero-title);
     font-size: 56px;
     line-height: calc(60/56);
+    letter-spacing: 0.02em;
     /* text-transform: none; */
 }
 
@@ -183,10 +185,12 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
+    letter-spacing: 0.02em;
 }
 
 .features-text {
     color: var(--color-secondary);
+    letter-spacing: 0.02em;
 }
 
 /* .whatwedo {} */
@@ -196,6 +200,7 @@ body {
     text-transform: capitalize;
     font-size: 36px;
     line-height: calc(40/36);
+    letter-spacing: 0.02em;
     background-color: var(--bg-color);
 }
 
@@ -207,11 +212,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
+    letter-spacing: 0.02em;
     background-color: var(--bg-color);
 }
 
 .team-description {
     color: var(--color-secondary);
+    letter-spacing: 0.02em;
     background-color: var(--bg-color);
 }
 
@@ -221,11 +228,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
+    letter-spacing: 0.02em;
     color: var(--color-primary);
     background-color: var(--bg-color);
 }
 
 .portfolio-item-type {
     color: var(--color-secondary);
+    letter-spacing: 0.02em;
     background-color: var(--bg-color);
 }
