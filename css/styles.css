@@ -212,6 +212,14 @@ body {
 
 /* -- Portfolio Page -- */
 
-.portfolio-item-title {}
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    background-color: var(--bg-color);
+}
 
-.portfolio-item-type {}
+.portfolio-item-type {
+    color: var(--color-secondary);
+    background-color: var(--bg-color);
+}
