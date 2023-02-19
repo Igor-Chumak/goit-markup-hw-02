@@ -112,7 +112,7 @@ body {
 /* Header & Footer */
 
 /* header{
-        border-bottom: 1px var(--brd-color);
+    border-bottom: 1px var(--brd-color);
 } */
 
 .logo {
@@ -120,7 +120,9 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: calc(24/18);
+    letter-spacing: 0.03em;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--color-logo);
 }
 
@@ -137,6 +139,7 @@ body {
     font-size: inherit;
     font-weight: 500;
     line-height: calc(24/16);
+    letter-spacing: 0.02em;
 }
 
 .nav-link.current-page {
@@ -149,6 +152,7 @@ body {
     font-weight: inherit;
     font-style: normal;
     line-height: calc(24/16);
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -156,7 +160,8 @@ body {
 }
 
 .footer-text {
-    color: var(--color-footer)
+    color: var(--color-footer);
+    letter-spacing: 0.02em;
 }
 
 /* -- Main Page -- */
@@ -216,6 +221,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
+    color: var(--color-primary);
     background-color: var(--bg-color);
 }
 
