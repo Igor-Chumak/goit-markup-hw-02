@@ -11,21 +11,22 @@
     --color-logo-footer: #F4F4FD;
     --color-address: #434455;
     --color-footer: #E7E9FC; 
-    
-    /* --color-hero: #fff;
+    /* --color-hero: #fff; */
     --color-btn-hero: #fff;
-    --color-btn-portfolio: #212121;
-    --color-btn-portfolio-hover: #fff; */
+    --color-btn-portfolio: #4D5AE5;
+    --color-btn-portfolio-hover: #fff;
 
     /* background-color */
     --bg-color: #fff;
     --bg-color-dark: #2E2F42;
-    /* --bg-color-light: #F5F4FA;
-    --bg-color-btn-hero: #2196F3;
-    --bg-color-btn-hero-hover: #188CE8;
-    --bg-color-btn-portfolio: #F5F4FA;
-    --bg-color-btn-portfolio-hover: #2196F3; */
+    /* --bg-color-light: #F5F4FA; */
+    --bg-color-btn-hero: #4D5AE5;
+    --bg-color-btn-hero-hover: #404BBF;
+    --bg-color-btn-portfolio: #F4F4FD;
+    --bg-color-btn-portfolio-hover: #404BBF;
 
+    /* border-color */
+    --brd-color-btn-portfolio: #E7E9FC;
     /* fonts */
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Raleway', sans-serif;
@@ -42,6 +43,17 @@ body {
 }
 
 /* -- Common for All Pages -- */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 
 .list {
     list-style-type: none;
@@ -63,10 +75,39 @@ body {
     color: var(--color-accent);
 }
 
-/* .button {
+.button {
     font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: calc(24/16);
     cursor: pointer;
-} */
+}
+
+.hero-btn {
+    color: var(--color-btn-hero);
+    background-color: var(--bg-color-btn-hero);
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-btn:is(:hover, :focus) {
+    background-color: var(--bg-color-btn-hero-hover);
+    
+}
+
+.btn-portfolio {
+    color: var(--color-btn-portfolio);
+    background-color: var(--bg-color-btn-portfolio);
+    border: 1px solid var(--brd-color-btn-portfolio);
+    border-radius: 4px;
+}
+
+.btn-portfolio:is(:hover, :focus) {
+    color: var(--color-btn-portfolio-hover);
+    background-color: var(--bg-color-btn-portfolio-hover);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 /* Header & Footer */
 
@@ -116,13 +157,7 @@ body {
 
 .hero-title {}
 
-
-
-.hero-btn {}
-
 .features {}
-
-.visually-hidden {}
 
 .features-title {}
 
@@ -137,14 +172,6 @@ body {
 .team-description {}
 
 /* -- Portfolio Page -- */
-
-.visually-hidden {}
-
-.list {}
-
-.button {}
-
-.btn-portfolio {}
 
 .portfolio-item-title {}
 
